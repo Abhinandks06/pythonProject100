@@ -1,0 +1,10 @@
+dict1={'name':'Abhinand','age':12,'dob':'28-03-2001'}
+dict1.update({'age':21})
+dict2=dict1.copy()
+print(dict2)
+dict3=dict1.keys()
+print(dict3)
+dict4=dict1.values()
+print(dict4)
+dict1.pop('age')
+print(dict1)
